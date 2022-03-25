@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import { openInNewTab } from "../../helpers";
 import styles from "./index.module.css";
 
 interface SectionHeaderProps {
@@ -11,10 +12,7 @@ interface SectionHeaderProps {
 const SectionHeader: React.FC<SectionHeaderProps> = (
   props: SectionHeaderProps
 ) => {
-  const handleClick = useCallback(
-    () => window.open(props.url, "_blank", "noopener,noreferrer"),
-    [props.url]
-  );
+  const handleClick = useCallback(() => openInNewTab(props.url), [props.url]);
 
   return (
     <div className={styles.container}>

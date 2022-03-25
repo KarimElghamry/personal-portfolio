@@ -1,7 +1,8 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Projects from "./components/Projects";
 import SectionHeader from "./components/SectionHeader";
-import { routes } from "./data/routes";
+import { routes } from "./data/constants";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           linkLabel="View Github"
           url="https://github.com/KarimElghamry"
         />
+        <Projects />
       </div>
     </>
   );
