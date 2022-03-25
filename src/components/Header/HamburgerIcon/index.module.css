@@ -1,6 +1,7 @@
 .container {
   width: 20px;
   cursor: pointer;
+  transition: 200ms ease-in-out;
 }
 
 .container:hover .stripe {
@@ -13,4 +14,9 @@
   border-radius: 5px;
   margin: 2px;
   transition: 100ms ease-in-out;
+}
+
+.stripe-active {
+  margin: 3px 0;
+  background-color: #0082f3;
 }

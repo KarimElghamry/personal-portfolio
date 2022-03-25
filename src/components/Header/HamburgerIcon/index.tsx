@@ -2,6 +2,7 @@ import styles from "./index.module.css";
 
 interface HamburgerIconProps {
   onClick?: () => void;
+  isActive: boolean;
 }
 
 const HamburgerIcon: React.FC<HamburgerIconProps> = (
@@ -12,9 +13,14 @@ const HamburgerIcon: React.FC<HamburgerIconProps> = (
       className={styles.container}
       onClick={() => (props.onClick ? props.onClick() : undefined)}
     >
-      <div className={styles.stripe}></div>
-      <div className={styles.stripe}></div>
-      <div className={styles.stripe}></div>
+      {new Array(3).fill(0).map((_, index) => (
+        <div
+          key={index}
+          className={`${styles.stripe} ${
+            props.isActive ? styles["stripe-active"] : ""
+          }`}
+        ></div>
+      ))}
     </div>
   );
 };

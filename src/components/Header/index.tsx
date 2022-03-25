@@ -52,7 +52,10 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
         </div>
 
         {isCompactView ? (
-          <HamburgerIcon onClick={handleHamburgerClick}></HamburgerIcon>
+          <HamburgerIcon
+            isActive={isExpanded}
+            onClick={handleHamburgerClick}
+          ></HamburgerIcon>
         ) : (
           <></>
         )}
