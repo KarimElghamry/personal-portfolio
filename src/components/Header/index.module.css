@@ -30,7 +30,7 @@
   transform: translate3d(-50%, 0, -10px);
   display: block;
   width: 100%;
-  transition: 400ms ease-in-out;
+  transition: top 400ms ease-in-out, box-shadow 400ms ease-in-out;
   background-color: whitesmoke;
   border-bottom: 1px solid #e1e1e1;
 }
