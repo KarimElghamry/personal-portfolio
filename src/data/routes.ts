@@ -1,1 +1,1 @@
-export const routes = ["Home", "Work", "About", "Contact"];
+export const routes = ["Home", "Personal Projects", "About", "Contact"];
