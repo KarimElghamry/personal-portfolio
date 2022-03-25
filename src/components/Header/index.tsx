@@ -4,7 +4,7 @@ import Button from "./Button";
 import HamburgerIcon from "./HamburgerIcon";
 import styles from "./index.module.css";
 
-const WINDOW_WIDTH_THRESHOLD = 800;
+const WINDOW_WIDTH_THRESHOLD = 1000;
 
 interface HeaderProps {
   routes: string[];
