@@ -1,6 +1,5 @@
 import React from "react";
 import { images } from "../../assets";
-import SectionHeader from "../SectionHeader";
 import styles from "./index.module.css";
 
 const skillCollection = Object.entries(images.frameworks)
@@ -10,13 +9,6 @@ const skillCollection = Object.entries(images.frameworks)
 const Skillset: React.FC = () => {
   return (
     <>
-      <SectionHeader
-        icon="🤹"
-        title="Skillset"
-        linkLabel="View Github"
-        url="https://github.com/KarimElghamry"
-      />
-
       <div className={styles.container}>
         {skillCollection.map((val) => (
           <div className={styles.column} key={val[0]}>

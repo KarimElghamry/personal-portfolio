@@ -46,7 +46,9 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
         >
           {props.routes.map((val) => (
             <React.Fragment key={val}>
-              <Button label={val} onClick={handleRouteClick}></Button>
+              <a href={`#${val.toLowerCase()}`}>
+                <Button label={val} onClick={handleRouteClick}></Button>
+              </a>
             </React.Fragment>
           ))}
         </div>

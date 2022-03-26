@@ -1,7 +1,7 @@
 import { images } from "../assets";
 import Project from "../models/Project";
 
-export const routes = ["Home", "Personal Projects", "About", "Contact"];
+export const routes = ["Home", "Projects", "Skills", "Contact"];
 
 export const personalProjects: {
   project: Project;

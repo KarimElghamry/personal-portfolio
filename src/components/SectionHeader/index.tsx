@@ -7,6 +7,7 @@ interface SectionHeaderProps {
   title: string;
   linkLabel: string;
   url: string;
+  route: string;
 }
 
 const SectionHeader: React.FC<SectionHeaderProps> = (
@@ -15,7 +16,7 @@ const SectionHeader: React.FC<SectionHeaderProps> = (
   const handleClick = useCallback(() => openInNewTab(props.url), [props.url]);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={props.route}>
       <span className="flex-row">
         <span className={styles.icon}>{props.icon}</span>
         <span className={styles.title}>{props.title}</span>
