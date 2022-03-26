@@ -1,0 +1,38 @@
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+}
+
+.container {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  width: 165px;
+  flex-direction: column;
+  overflow: hidden;
+  transition: 200ms ease-in-out;
+}
+
+.column:hover {
+  transform: translateY(-30px);
+}
+
+.column:hover .title {
+  opacity: 1;
+}
+
+.column > img {
+  height: 80px;
+  margin: 20px 0;
+}

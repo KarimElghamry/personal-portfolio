@@ -21,7 +21,7 @@ export const personalProjects: {
       url: "https://github.com/KarimElghamry/chillify",
     },
     color: "#fcf4f4",
-    frameworkLogo: images.flutterLogo,
+    frameworkLogo: images.frameworks.flutter,
   },
   {
     project: {
@@ -34,7 +34,7 @@ export const personalProjects: {
       url: "https://github.com/KarimElghamry/cryptoholic",
     },
     color: "#F3F9F4",
-    frameworkLogo: images.flutterLogo,
+    frameworkLogo: images.frameworks.flutter,
   },
   {
     project: {
@@ -47,7 +47,7 @@ export const personalProjects: {
       url: "https://karimelghamry.github.io/GraphAV/",
     },
     color: "#F3FAFF",
-    frameworkLogo: images.reactLogo,
+    frameworkLogo: images.frameworks.react,
   },
   {
     project: {
@@ -59,6 +59,6 @@ export const personalProjects: {
       url: "https://karimelghamry.github.io/sorting-visualizer/",
     },
     color: "#FEF9F4",
-    frameworkLogo: images.reactLogo,
+    frameworkLogo: images.frameworks.react,
   },
 ];

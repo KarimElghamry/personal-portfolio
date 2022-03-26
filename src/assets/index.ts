@@ -4,16 +4,60 @@ import chillify from "./images/apps/chillify.png";
 import cryptoholic from "./images/apps/cryptoholic.png";
 import flutterLogo from "./images/frameworks/flutter.png";
 import reactLogo from "./images/frameworks/react.png";
+import angularLogo from "./images/frameworks/angular.png";
+import electronLogo from "./images/frameworks/electron.png";
+import nodeLogo from "./images/frameworks/node.png";
 import graphAV from "./images/apps/graphav.png";
 import sortingVisualizer from "./images/apps/sorting.png";
+import unityLogo from "./images/frameworks/unity.png";
+import javascriptLogo from "./images/languages/javascript.png";
+import typescriptLogo from "./images/languages/typescript.png";
+import pythonLogo from "./images/languages/python.png";
+import dartLogo from "./images/languages/dart.png";
+import csharpLogo from "./images/languages/csharp.png";
+import htmlLogo from "./images/languages/html.png";
+import cssLogo from "./images/languages/css.png";
+import cppLogo from "./images/languages/cpp.png";
+import sqlLogo from "./images/languages/sql.png";
+import bashLogo from "./images/languages/bash.png";
+import goLogo from "./images/languages/go.png";
+import firebaseLogo from "./images/utils/firebase.png";
+import gitLogo from "./images/utils/git.png";
+import dockerLogo from "./images/utils/docker.png";
+import kubernetesLogo from "./images/utils/kubernetes.png";
 
 export const images = {
   logo: logo,
   personalImage: personalImage,
   chillify: chillify,
   cryptoholic: cryptoholic,
-  flutterLogo: flutterLogo,
   graphAV: graphAV,
-  reactLogo: reactLogo,
   sortingVisualizer: sortingVisualizer,
+  frameworks: {
+    flutter: flutterLogo,
+    react: reactLogo,
+    angular: angularLogo,
+    electron: electronLogo,
+    node: nodeLogo,
+    unity: unityLogo,
+  },
+  languages: {
+    html: htmlLogo,
+    css: cssLogo,
+    javascript: javascriptLogo,
+    typescript: typescriptLogo,
+    python: pythonLogo,
+    dart: dartLogo,
+    "c#": csharpLogo,
+    "c++": cppLogo,
+    go: goLogo,
+    sql: sqlLogo,
+    bash: bashLogo,
+  },
+  utils: {
+    firebase: firebaseLogo,
+    git: gitLogo,
+    docker: dockerLogo,
+    kubernetes: kubernetesLogo,
+  },
 };
