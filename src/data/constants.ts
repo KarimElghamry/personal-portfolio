@@ -43,10 +43,22 @@ export const personalProjects: {
       currently has 100+ stars on Github. It is capable of drawing graphs and visualize 
       different algorithms such as DFS, BFS and Dijkstra.
 `,
-      image: images.graphAVLogo,
+      image: images.graphAV,
       url: "https://karimelghamry.github.io/GraphAV/",
     },
     color: "#F3FAFF",
+    frameworkLogo: images.reactLogo,
+  },
+  {
+    project: {
+      title: "Sorting Algorithms Visualizer",
+      description: `A tool to visualize sorting algorithms built using ReactJS. It supports
+      the control of visualization speed, changing the array size, randomizing the input,
+      and choosing from various algorithms such as merge sort and quick sort.`,
+      image: images.sortingVisualizer,
+      url: "https://karimelghamry.github.io/sorting-visualizer/",
+    },
+    color: "#FEF9F4",
     frameworkLogo: images.reactLogo,
   },
 ];
