@@ -1,7 +1,9 @@
 import logo from "./images/SlimXV-black.png";
 import personalImage from "./images/personal-bw.png";
+import desginPatterns from "./images/apps/design-patterns.png";
 import chillify from "./images/apps/chillify.png";
 import cryptoholic from "./images/apps/cryptoholic.png";
+import codeforces from "./images/apps/codeforces.png";
 import flutterLogo from "./images/frameworks/flutter.png";
 import reactLogo from "./images/frameworks/react.png";
 import angularLogo from "./images/frameworks/angular.png";
@@ -21,6 +23,7 @@ import cppLogo from "./images/languages/cpp.png";
 import sqlLogo from "./images/languages/sql.png";
 import bashLogo from "./images/languages/bash.png";
 import goLogo from "./images/languages/go.png";
+import javaLogo from "./images/languages/java.png";
 import firebaseLogo from "./images/utils/firebase.png";
 import gitLogo from "./images/utils/git.png";
 import dockerLogo from "./images/utils/docker.png";
@@ -29,10 +32,12 @@ import kubernetesLogo from "./images/utils/kubernetes.png";
 export const images = {
   logo: logo,
   personalImage: personalImage,
+  desginPatterns: desginPatterns,
   chillify: chillify,
   cryptoholic: cryptoholic,
   graphAV: graphAV,
   sortingVisualizer: sortingVisualizer,
+  codeforces: codeforces,
   frameworks: {
     flutter: flutterLogo,
     react: reactLogo,
@@ -48,6 +53,7 @@ export const images = {
     typescript: typescriptLogo,
     python: pythonLogo,
     dart: dartLogo,
+    java: javaLogo,
     "c#": csharpLogo,
     "c++": cppLogo,
     go: goLogo,

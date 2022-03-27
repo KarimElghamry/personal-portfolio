@@ -1,5 +1,5 @@
 import React from "react";
-import { personalProjects } from "../../data/constants";
+import { personalProjects } from "../../data";
 import Card from "./Card";
 import styles from "./index.module.css";
 

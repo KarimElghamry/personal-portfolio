@@ -1,8 +1,6 @@
 import { images } from "../assets";
 import Project from "../models/Project";
 
-export const routes = ["Home", "Projects", "Skills", "Contact"];
-
 export const personalProjects: {
   project: Project;
   color: string;
@@ -25,19 +23,6 @@ export const personalProjects: {
   },
   {
     project: {
-      title: "Cryptoholic - Cryptocurrency App",
-      description: ` A Crypto-currency mobile application established using Flutter and Dart. Cryptoholic 
-      currently has 120+ stars on Github. It is capable of real-time data retrieval of top 
-      crypto-currencies and display charts of performance.
-`,
-      image: images.cryptoholic,
-      url: "https://github.com/KarimElghamry/cryptoholic",
-    },
-    color: "#F3F9F4",
-    frameworkLogo: images.frameworks.flutter,
-  },
-  {
-    project: {
       title: "GraphAV - Graph Algorithms Visualizer",
       description: `A Graph Algorithms Visualizer built using React and Typescript. GraphAV 
       currently has 100+ stars on Github. It is capable of drawing graphs and visualize 
@@ -51,6 +36,19 @@ export const personalProjects: {
   },
   {
     project: {
+      title: "Cryptoholic - Cryptocurrency App",
+      description: ` A Crypto-currency mobile application established using Flutter and Dart. Cryptoholic 
+      currently has 120+ stars on Github. It is capable of real-time data retrieval of top 
+      crypto-currencies and display charts of performance.
+`,
+      image: images.cryptoholic,
+      url: "https://github.com/KarimElghamry/cryptoholic",
+    },
+    color: "#F3F9F4",
+    frameworkLogo: images.frameworks.flutter,
+  },
+  {
+    project: {
       title: "Sorting Algorithms Visualizer",
       description: `A tool to visualize sorting algorithms built using ReactJS. It supports
       the control of visualization speed, changing the array size, randomizing the input,
@@ -58,7 +56,32 @@ export const personalProjects: {
       image: images.sortingVisualizer,
       url: "https://karimelghamry.github.io/sorting-visualizer/",
     },
+    color: "#F8F4FD",
+    frameworkLogo: images.frameworks.react,
+  },
+  {
+    project: {
+      title: "Java OOP Design Patterns",
+      description: `A collection of design patterns implemented in Java 
+      and referenced from the book of Design Patterns: Elements of Reusable Object-Oriented Software.
+      The repo covers a wide variety of creational, behavioural and structural patterns.`,
+      image: images.desginPatterns,
+      url: "https://github.com/KarimElghamry/design-patterns",
+    },
     color: "#FEF9F4",
+    frameworkLogo: images.languages.java,
+  },
+  {
+    project: {
+      title: "Codeforces Randomizer",
+      description: `a Codeforces problem randomizer built using React, Styled components and Typescript.
+      A user is able to select topics from the provided list (max 4), adjust the range of ratings to your likings 
+      and press Randomize to retrieve a random problem from Codeforces based on your inputs.
+`,
+      image: images.codeforces,
+      url: "https://github.com/KarimElghamry/Codeforces-Randomizer",
+    },
+    color: "#F3FAFF",
     frameworkLogo: images.frameworks.react,
   },
 ];

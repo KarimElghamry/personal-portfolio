@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import SectionHeader from "./components/SectionHeader";
 import Skillset from "./components/Skillset";
-import { routes } from "./data/constants";
+import { routes } from "./data";
 
 const App: React.FC = () => {
   return (
