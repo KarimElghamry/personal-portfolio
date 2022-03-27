@@ -84,4 +84,20 @@ export const personalProjects: {
     color: "#F3FAFF",
     frameworkLogo: images.frameworks.react,
   },
+  {
+    project: {
+      title: "Keyboard Macros Desktop App",
+      description: `A simple keyboard macros desktop app made with React and Electron.
+    How it works: 
+    The user adds their desired keyboard macros and is stored in a json format.
+    The app listens to the keyboard events on the main Electron thread using ioHook.
+    If a registered macro is detected, the corresponding key mapping is retrieved and is programatically pressed.
+    DFS graph traversal is used to detect any loops in the given macro sequence.
+`,
+      image: images.macros,
+      url: "https://github.com/KarimElghamry/K_Macros",
+    },
+    color: "#EEF3F7",
+    frameworkLogo: images.frameworks.electron,
+  },
 ];

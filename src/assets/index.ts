@@ -4,9 +4,9 @@ import desginPatterns from "./images/apps/design-patterns.png";
 import chillify from "./images/apps/chillify.png";
 import cryptoholic from "./images/apps/cryptoholic.png";
 import codeforces from "./images/apps/codeforces.png";
+import macros from "./images/apps/macros.png";
 import flutterLogo from "./images/frameworks/flutter.png";
 import reactLogo from "./images/frameworks/react.png";
-import angularLogo from "./images/frameworks/angular.png";
 import electronLogo from "./images/frameworks/electron.png";
 import nodeLogo from "./images/frameworks/node.png";
 import graphAV from "./images/apps/graphav.png";
@@ -38,10 +38,10 @@ export const images = {
   graphAV: graphAV,
   sortingVisualizer: sortingVisualizer,
   codeforces: codeforces,
+  macros: macros,
   frameworks: {
     flutter: flutterLogo,
     react: reactLogo,
-    angular: angularLogo,
     electron: electronLogo,
     node: nodeLogo,
     unity: unityLogo,
