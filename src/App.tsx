@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import SectionHeader from "./components/SectionHeader";
 import Skillset from "./components/Skillset";
+import Work from "./components/Work";
 import { routes } from "./data";
 
 const App: React.FC = () => {
@@ -29,6 +30,15 @@ const App: React.FC = () => {
           url="https://github.com/KarimElghamry"
         />
         <Skillset />
+
+        <SectionHeader
+          route="work"
+          icon="👨‍💻‍"
+          title="Work Experience"
+          linkLabel="View Github"
+          url="https://github.com/KarimElghamry"
+        />
+        <Work />
       </div>
     </>
   );

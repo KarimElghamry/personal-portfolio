@@ -28,6 +28,10 @@ import firebaseLogo from "./images/utils/firebase.png";
 import gitLogo from "./images/utils/git.png";
 import dockerLogo from "./images/utils/docker.png";
 import kubernetesLogo from "./images/utils/kubernetes.png";
+import dellLogo from "./images/companies/dell.png";
+import vodafoneLogo from "./images/companies/vodafone.png";
+import badgewellLogo from "./images/companies/badgewell.png";
+import nileUniversityLogo from "./images/companies/nile.png";
 
 export const images = {
   logo: logo,
@@ -65,5 +69,11 @@ export const images = {
     git: gitLogo,
     docker: dockerLogo,
     kubernetes: kubernetesLogo,
+  },
+  companies: {
+    dell: dellLogo,
+    vodafone: vodafoneLogo,
+    badgewell: badgewellLogo,
+    nileUniversity: nileUniversityLogo,
   },
 };
