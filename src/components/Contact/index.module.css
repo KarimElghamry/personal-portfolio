@@ -1,0 +1,29 @@
+.container {
+  border-top: 1px solid #e1e1e1;
+  padding: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #4b525a7a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container div {
+  flex-wrap: wrap;
+}
+
+.container img {
+  height: 60px;
+  margin: 10px 15px 20px 15px;
+  filter: grayscale(100%);
+  transition: 150ms linear;
+  cursor: pointer;
+}
+
+.container img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}

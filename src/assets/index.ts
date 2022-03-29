@@ -1,4 +1,4 @@
-import logo from "./images/SlimXV-black.png";
+import logo from "./images/logo.png";
 import personalImage from "./images/personal-bw.png";
 import desginPatterns from "./images/apps/design-patterns.png";
 import chillify from "./images/apps/chillify.png";
@@ -32,6 +32,10 @@ import dellLogo from "./images/companies/dell.png";
 import vodafoneLogo from "./images/companies/vodafone.png";
 import badgewellLogo from "./images/companies/badgewell.png";
 import nileUniversityLogo from "./images/companies/nile.png";
+import facebookLogo from "./images/companies/facebook.png";
+import githubLogo from "./images/companies/github.png";
+import gmailLogo from "./images/companies/gmail.png";
+import linkedinLogo from "./images/companies/linkedin.png";
 
 export const images = {
   logo: logo,
@@ -75,5 +79,9 @@ export const images = {
     vodafone: vodafoneLogo,
     badgewell: badgewellLogo,
     nileUniversity: nileUniversityLogo,
+    facebook: facebookLogo,
+    github: githubLogo,
+    gmail: gmailLogo,
+    linkedin: linkedinLogo,
   },
 };

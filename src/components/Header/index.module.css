@@ -25,7 +25,7 @@
 
 .compact-view {
   position: absolute;
-  top: -200%;
+  top: -300%;
   left: 50%;
   transform: translate3d(-50%, 0, -10px);
   display: block;
@@ -33,9 +33,11 @@
   transition: top 400ms ease-in-out, box-shadow 400ms ease-in-out;
   background-color: whitesmoke;
   border-bottom: 1px solid #e1e1e1;
+  pointer-events: none;
 }
 
 .compact-view-active {
   top: calc(100% + 1px);
   box-shadow: 0px 2px 5px grey;
+  pointer-events: all;
 }
