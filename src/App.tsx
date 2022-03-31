@@ -27,8 +27,8 @@ const App: React.FC = () => {
           route="skills"
           icon="🤹"
           title="Skillset"
-          linkLabel="View Github"
-          url="https://github.com/KarimElghamry"
+          linkLabel="View Resume"
+          url="https://drive.google.com/file/d/1wo0snQyLW5MSl4Tw_dE6ysphhjk1ab6v/view?usp=sharing"
         />
         <Skillset />
 
@@ -36,8 +36,8 @@ const App: React.FC = () => {
           route="work"
           icon="👨‍💻‍"
           title="Work Experience"
-          linkLabel="View Github"
-          url="https://github.com/KarimElghamry"
+          linkLabel="View Resume"
+          url="https://drive.google.com/file/d/1wo0snQyLW5MSl4Tw_dE6ysphhjk1ab6v/view?usp=sharing"
         />
         <Work />
       </div>
