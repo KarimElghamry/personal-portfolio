@@ -36,6 +36,7 @@ import facebookLogo from "./images/companies/facebook.png";
 import githubLogo from "./images/companies/github.png";
 import gmailLogo from "./images/companies/gmail.png";
 import linkedinLogo from "./images/companies/linkedin.png";
+import ansibleLogo from "./images/utils/ansible.png";
 
 export const images = {
   logo: logo,
@@ -73,6 +74,7 @@ export const images = {
     git: gitLogo,
     docker: dockerLogo,
     kubernetes: kubernetesLogo,
+    ansible: ansibleLogo,
   },
   companies: {
     dell: dellLogo,

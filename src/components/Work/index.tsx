@@ -17,8 +17,8 @@ const Work = () => {
           React.Js and others.
           <br />
           <br />
-          Moreover, I have worked in the blockchain and machine learning fields
-          for 2 years and I am deeply interested in them. Armed with a
+          Moreover, I have worked in the blockchain, security and automation
+          fields for 2 years and I am deeply interested in them. Armed with a
           competitive athlete spirit, I am willing to be an added value to the
           open source community.
         </p>
